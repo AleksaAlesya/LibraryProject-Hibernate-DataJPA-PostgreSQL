@@ -22,7 +22,7 @@ public class Person {
     @NotNull(message = "Год рождения не доллжен быть пустым")
     @Min(value = 1900, message = "Год рождения не должен быть больше 1900")
     @Max(value = 2100, message = "WOW!!!")
-    @Column(name = "yearOfBirth")
+    @Column(name = "yearofbirth")
     private int yearOfBirth;
 
     @OneToMany(mappedBy = "owner")
